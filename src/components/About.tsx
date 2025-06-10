@@ -69,7 +69,7 @@ const About = () => {
           {/* Image */}
           <div className="relative animate-fade-in">
             <img
-              src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=2070&auto=format&fit=crop"
+              src= '/images/barberMaster.jpg'
               alt="Master barber at work"
               className="w-full h-96 lg:h-[500px] object-cover rounded-lg"
             />

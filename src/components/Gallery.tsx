@@ -6,32 +6,32 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=2070&auto=format&fit=crop",
+      src: '/images/barber.jpg',
       alt: "Professional barber at work",
       category: "Barber"
     },
     {
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
+      src: '/images/interior.jpg',
       alt: "Modern barbershop interior",
       category: "Interior"
     },
     {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2076&auto=format&fit=crop",
+      src: '/images/styling.jpg',
       alt: "Precision haircut styling",
       category: "Styling"
     },
     {
-      src: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=2070&auto=format&fit=crop",
+      src: '/images/tools.jpg',
       alt: "Classic barbershop tools",
       category: "Tools"
     },
     {
-      src: "https://images.unsplash.com/photo-1527576539890-dfa815648363?q=80&w=1999&auto=format&fit=crop",
+      src: '/images/elegante.jpg',
       alt: "Elegant barbershop atmosphere",
       category: "Atmosphere"
     },
     {
-      src: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=2070&auto=format&fit=crop",
+      src: '/images/craftBarber.jpg',
       alt: "Master barber craftsmanship",
       category: "Craftsmanship"
     }
