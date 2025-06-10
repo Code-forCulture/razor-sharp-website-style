@@ -2,6 +2,13 @@
 import React from 'react';
 
 const Hero = () => {
+  const handleBookAppointment = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -26,7 +33,10 @@ const Hero = () => {
             Every cut is a masterpiece, every visit an experience.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="btn-primary text-lg px-10 py-4">
+            <button 
+              onClick={handleBookAppointment}
+              className="btn-primary text-lg px-10 py-4"
+            >
               Book Your Experience
             </button>
             <a

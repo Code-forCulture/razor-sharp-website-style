@@ -29,6 +29,13 @@ const Services = () => {
     }
   ];
 
+  const handleBookService = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="services" className="py-20 bg-barbershop-charcoal">
       <div className="section-container">
@@ -71,7 +78,10 @@ const Services = () => {
                 ))}
               </div>
 
-              <button className="w-full bg-barbershop-gold/10 hover:bg-barbershop-gold hover:text-barbershop-black text-barbershop-gold font-semibold py-3 rounded-md transition-all duration-300">
+              <button 
+                onClick={handleBookService}
+                className="w-full bg-barbershop-gold/10 hover:bg-barbershop-gold hover:text-barbershop-black text-barbershop-gold font-semibold py-3 rounded-md transition-all duration-300"
+              >
                 Book This Service
               </button>
             </div>
