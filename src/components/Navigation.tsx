@@ -45,9 +45,9 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <button className="btn-primary">
+            <Link to="/booking" className="btn-primary">
               Book Appointment
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -80,9 +80,9 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 pt-2">
-                <button className="btn-primary w-full">
+                <Link to="/booking" className="btn-primary w-full block text-center">
                   Book Appointment
-                </button>
+                </Link>
               </div>
             </div>
           </div>
